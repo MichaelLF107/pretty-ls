@@ -58,7 +58,6 @@ fn print_file(file: DirEntry, count: i32, pad: usize, longest_str: usize) {
 }
 
 pub fn print_files(files: fs::ReadDir, path_arg: &str) {
-    println!("Path: {}", path_arg);
     let mut count = 1;
     let mut longest_str = 0;
 
